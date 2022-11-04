@@ -1,19 +1,15 @@
-a=int(input("enetr the number:-"))
-i=1
-while i<=a:
-    j=1
-    while j<=a:
-        print(i,end=" ")
-        j=j+1
-    i=i+1
+n=int(input("enter the number:"))
+for i in range(n):
+    for j in range (n-i-1):
+        print(" ",end=" ")
+    for j in range(i,-1,-1):
+        print(n-j,end=" ")
     print()
 
-a=int(input("enetr the number:-"))
-i=1
-while i<=a:
-    j=1
-    while j<=a:
-        print(j,end=" ")
-        j=j+1
-    i=i+1
+n=int(input("enter the number:"))
+for i in range(n):
+    for j in range (n-i-1):
+        print(" ",end=" ")
+    for j in range(i+1):
+        print(n-j,end=" ")
     print()

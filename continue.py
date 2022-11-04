@@ -1,29 +1,16 @@
-# (output:1,2,3,4,5,8,9,10)
-# i=0
-# while i<=10:
-#     i=i+1
-#     if i==6 or i==7:
+# for letter in 'Flexi ple': 
+#     if letter =='p': 
+#         continue 
+#     print ('Letters: ', letter)
+
+
+# for letter in 'Flexi ple': 
+#     if letter == '': 
 #         continue
-#     print(i)
+#     print ('Letters: ', letter) 
 
-
-
-a=int(input("enter the no:"))
-i=1
-while i<=a:
-    j=1
-    while j<=i:
-        print("",end=" ")
-        j=j+1
-    i=i+1
+n=int(input("enter the number:"))
+for i in range(n):
+    for j in range(i+1):
+        print(j+1,end=" ")
     print()
-    k=1
-    while k<=a:
-        print(k,end=" ")
-        k=k+1
-    i=i+1
-    print()
-    
-    
-    
-
